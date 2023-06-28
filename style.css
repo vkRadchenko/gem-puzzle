@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(66, 66, 66);
+}
+.btn {
+  color: rgb(62, 62, 62);
+  padding: 0 20px;
+  height: 40px;
+  background-color: rgb(98, 210, 169);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: rgb(121, 254, 206);
+  color: rgb(117, 117, 117);
+}
+a {
+  color: rgb(66, 66, 66);
+}
+
+a:hover {
+  color: rgb(98, 210, 169);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 100vh;
+}
+
+.puzzle__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  max-width: 600px;
+
+  row-gap: 20px;
+}
+.puzzleCanvas {
+  position: relative;
+  /* gap: 10px; */
+  width: 600px;
+  height: 600px;
+  background-color: rgb(164, 164, 164);
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+}
+.movesContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.moveNum,
+.timeNum {
+  padding-left: 5px;
+  font-size: 28px;
+}
+
+.puzzleSize {
+  position: relative;
+  font-size: 24px;
+  font-weight: 500;
+}
+.other__size {
+  display: flex;
+  margin-top: 5px;
+}
+.link__container {
+  display: flex;
+  column-gap: 5px;
+  margin-left: 5px;
+}
+/* .link__size {
+} */
+.unit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(216, 216, 216);
+  width: 150px;
+  height: 150px;
+  color: rgb(66, 66, 66);
+  font-size: 32px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.unit__3 {
+  width: 200px;
+  height: 200px;
+}
+
+.unit__5 {
+  width: 120px;
+  height: 120px;
+}
+.unit__6 {
+  width: 100px;
+  height: 100px;
+}
+.unit__7 {
+  width: 85.7px;
+  height: 85.7px;
+}
+.unit__8 {
+  width: 75px;
+  height: 75px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    justify-content: flex-start;
+  }
+  .btn {
+    font-size: 16px;
+  }
+  .menu {
+    column-gap: 30px;
+  }
+  .puzzleCanvas {
+    width: 500px;
+    height: 500px;
+  }
+  .unit {
+    width: 125px;
+    height: 125px;
+    font-size: 24px;
+  }
+  .unit__3 {
+    width: 166.7px;
+    height: 166.7px;
+  }
+  .unit__5 {
+    width: 100px;
+    height: 100px;
+  }
+  .unit__6 {
+    width: 83.3px;
+    height: 83.3px;
+  }
+  .unit__7 {
+    width: 71.4px;
+    height: 71.4px;
+  }
+  .unit__8 {
+    width: 62.5px;
+    height: 62.5px;
+  }
+}
