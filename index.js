@@ -5,6 +5,7 @@ const puzzleCounter = document.createElement('div')
 const puzzleCanvas = document.createElement('div')
 const puzzleSize = document.createElement('div')
 
+const audioLink = '/gem-puzzle/assets/whoosh-grainy_g1lnqyn_.mp3'
 const windowSize = document.documentElement.clientWidth
 /////////////
 
@@ -83,9 +84,7 @@ createButtonMenu('button', 'Foo', 'btn__4', 'Results')
 
 // Audio
 
-let song = new Audio(
-  '/vkradchenko-JSFE2022Q3/RSS Gem Puzzle/assets/whoosh-grainy_g1lnqyn_.mp3'
-)
+let song = new Audio(audioLink)
 song.volume = 0.5
 song.playbackRate = 2.5
 
