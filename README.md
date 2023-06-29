@@ -8,5 +8,5 @@
 **Используемый стек:**  html, css, js
 
 Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/stage-1/dom-api/codejam-the-gem-puzzle.md </br>
-Deploy: https://vkradchenko.github.io/gem-puzzle/index.html
+Deploy: https://vkradchenko.github.io/gem-puzzle/index.html </br>
 Score: 100/120
